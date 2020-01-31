@@ -1,0 +1,231 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:rgba(211,211,211, 0.4) ;
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    
+}
+
+ header a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Baloo Bhai", cursive;
+    color: black;
+    box-sizing: border-box;
+    font-size: 25px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 15px;
+ }
+
+ header a:hover{
+     background: black;
+     color: white;
+ }
+
+.header-banner{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-repeat: space ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.header-banner p{
+     background-color: rgba(255, 255, 255, 0.8);
+     font-family: "Barlow Condensed", sans serif;
+     width: 100%;
+     border-radius: 20px;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 50px;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 10px;
+ }
+
+
+.post1{
+    background-image: url(./img/Team.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .post1 p{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-family: "Barlow Condensed", sans serif;
+        width: 100%;
+        border-radius: 10px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        cursor: default;
+    }
+
+    .post1 p span{
+        font-weight: bold;
+    }
+
+
+.post2{
+    background-image: url(./img/omb1.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+    .post2 a{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-family: "Barlow Condensed", sans serif;
+        width: 30%;
+        border-radius: 10px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        text-decoration: none;
+        color: black   
+    }
+    .post2 a:hover{
+        font-size: 50px;
+        height: 100px;
+        width: 50%;
+        border-radius: 20px;
+
+    }
+
+.post3{
+    background-image: url(./img/omb2.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+       
+    .post3 a{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-family: "Barlow Condensed", sans serif;
+        width: 30%;
+        border-radius: 10px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        text-decoration: none;
+        color: black   
+        }
+    .post3 a:hover{
+        font-size: 50px;
+        height: 100px;
+        width: 50%;
+        border-radius: 20px;
+    
+    }
+
+.post4{
+    background-image: url(./img/omb3.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+           
+    .post4 a{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-family: "Barlow Condensed", sans serif;
+        width: 30%;
+        border-radius: 10px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        text-decoration: none;
+        color: black;
+        
+    }
+    .post4 a:hover{
+        font-size: 50px;
+        height: 100px;
+        width: 50%;
+        border-radius: 20px;
+        
+    }
+    .invite{
+        background-image: url(./img/invite3.gif);
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .invite a{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-family: "Barlow Condensed", sans serif;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .invite a:hover{
+        font-size: 50px;
+        height: 100px;
+    }
+
+footer{
+    text-align: end;
+    font-family:"Barlow Condensed", sans serif;
+    color:rgba(000,000,000,0.5)
+}
