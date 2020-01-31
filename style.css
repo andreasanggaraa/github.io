@@ -1,0 +1,311 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: black
+}
+
+header{
+    background-color:rgba(211,211,211, 0.4) ;
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+    header a{
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        box-sizing: border-box;
+        font-size: 25px;
+        height: 50px;
+        text-align: center;
+        padding: 5px;
+        z-index: 11;
+        margin-left: 91%;
+    }
+
+    header a:hover{
+        background: black;
+        color: white;
+    }
+
+    .header-banner{
+        background-image: url(./img/banner.jpg);
+        background-size: cover;
+        background-repeat: space ;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+    }
+
+    .header-banner p{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-family: "Barlow Condensed", sans serif;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+
+/* Bumper atas */
+.post1{
+    background-image: url(./img/Team.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .post1 p{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-family: "Barlow Condensed", sans serif;
+        width: 100%;
+        border-radius: 10px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        cursor: default;
+    }
+
+    .post1 p span{
+        font-weight: bold;
+    }
+
+/* OMB 2015 */
+#post2015{
+    max-height: 100vh;
+    display: flex;
+    position: relative;
+    padding-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#captionPost2015{
+    position: absolute;
+    padding: 30px;
+    z-index: 3;
+    color: rgba(255,255,255,1);
+    padding : 10px;
+    background-color: rgba(0, 0, 0, 0.726);
+    left: 2%;
+    bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#image2015{
+    width: 100%;
+    position: static;
+    z-index: 0;
+}
+
+
+.btn_right, .btn_left{
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 50%;
+    user-select: none;
+    padding: 30px;
+    color: white;
+    opacity: .5;
+    
+}
+
+    .btn_right{
+        right: 0;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .btn_left{
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+        .btn_left:hover{
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 50%;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            opacity: 1;
+        }
+
+        .btn_right:hover{
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 50%;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            opacity: 1;
+        }
+
+.number{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.numberAct, .number:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+#contNumber{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+/* OMB UMN 2016 */
+#post2016{
+    max-height: 100vh;
+    display: flex;
+    position: relative;
+    padding-bottom: 2px;
+}
+#image2016{
+    width: 100vw;
+    position: static;
+    z-index: 0;
+}
+#captionPost2016{
+    position: absolute;
+    padding: 30px;
+    z-index: 4;
+    color: rgba(255,255,255,1);
+    padding : 10px;
+    background-color: rgba(0, 0, 0, 0.726);
+    left: 2%;
+    bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+    #captionPost2016:hover, #captionPost2015:hover, #captionPost2017:hover{
+        font-size: 25px; 
+    }
+
+.fade2016{
+    -webkit-animation-name: fade2016;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade2016;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fade2016 {
+    0%   {opacity: .6;}
+    80% {opacity: 1;}
+}
+
+@keyframes fade2016 {
+    0%   {opacity: .6;}
+    80% {opacity: 1;}
+}
+/* OMB UMN 2017 */
+#post2017{
+    max-height: 100vh;
+    display: flex;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+#captionPost2017{
+    position: absolute;
+    padding: 30px;
+    z-index: 3;
+    color: rgba(255,255,255,1);
+    padding : 10px;
+    background-color: rgba(0, 0, 0, 0.726);
+    left: 2%;
+    bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#image2017{
+    width: 100%;
+    position: static;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Invitation */
+.invite{
+    background-image: url(./img/invite3.gif);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invite a{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: "Barlow Condensed", sans serif;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.invite a:hover{
+    font-size: 50px;
+    height: 100px;
+    user-select: none;
+}
+
+footer{
+    text-align: end;
+    font-family:"Barlow Condensed", sans serif;
+    color:rgba(0,0,0,1);
+    font-size: 15px;
+    background-image: url(img/pattern.jpeg);
+    filter: opacity(0.7);
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rosarium</title>
+    <link rel="icon" href="img/icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Barlow+Condensed&display=swap" rel="stylesheet"> <!--Barlow Condensed, sans serif ; font-family: 'Baloo Bhai', cursive;-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet"/>
+    <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header-logo">
+            <img src="img/logo-rosarium.png" alt="Rosarium Logo" style="height: 50px;width: 50px;background-color: rgba(red, green, blue, 0);" />
+            <a id="meetus">MEET US</a>
+        </div>
+    </header>
+
+    <div class="header-banner">
+        <p>Hi there! It's nice to meet you!</p>
+    </div>
+    <div class="timeline">
+
+    <div class="post1">
+        <p>“The best thing about a picture is that it never changes, even when the people in it do.” – <span> ANDY WARHOL </span></p>
+    </div>
+
+    <!-- OMB UMN 2015 -->
+    <div id="post2015">
+        <a id = "captionPost2015">Konten Prodi Program Studi Manajemen 2015</a>
+        <img id = "image2015" src="img/20151.jpg"/>
+        <div class = "btn_left" onclick="changeIndex(-1)">
+            <i style="font-size:50px; text-align: center;" class="fas fa-chevron-left"></i>
+        </div>
+        <div class="btn_right" onclick="changeIndex(+1)">
+            <i style="font-size:50px; text-align: center;" class="fas fa-chevron-right" ></i>
+        </div>
+
+        <div id="contNumber" style="text-align:center; bottom: 10px;" >
+            <span class="number" onclick="image2015(1)"></span>
+            <span class="number" onclick="image2015(2)"></span>
+            <span class="number" onclick="image2015(3)"></span>
+            <span class="number" onclick="image2015(4)"></span>
+            <span class="number" onclick="image2015(5)"></span>
+        </div>
+    </div>
+    
+
+    <!-- OMB UMN 2016 -->
+    <div id="post2016" class="fade2016">
+        <img id = "image2016" src="img/20161.jpg" alt="OMB 2016"/>
+        <a id = "captionPost2016">Briefing oleh PIC masing-masing</a>
+    </div>
+
+        <!-- OMB UMN 2017 -->
+    <div id="post2017">
+        <a id = "captionPost2017">Absensi pagi sebelum briefing OMB UMN 2017</a>
+        <img id = "image2017" src="img/20171.jpg"/>
+        <div class = "btn_left" onclick="changeIndex2017(-1)">
+            <i style="font-size:50px; text-align: center;" class="fas fa-chevron-left"></i>
+        </div>
+        <div class="btn_right" onclick="changeIndex2017(+1)">
+            <i style="font-size:50px; text-align: center;" class="fas fa-chevron-right" ></i>
+        </div>
+        <div id="contNumber" style="text-align:center; bottom: 10px;" >
+            <span class="number" onclick="image2017(1)"></span>
+            <span class="number" onclick="image2017(2)"></span>
+            <span class="number" onclick="image2017(3)"></span>
+            <span class="number" onclick="image2017(4)"></span>
+            <span class="number" onclick="image2017(5)"></span>
+            <span class="number" onclick="image2017(6)"></span>
+        </div>
+    </div>
+
+    <!-- Invitation -->
+    <div class="invite">
+        <a>Are you ready to capture yours?</a>
+    </div>
+
+    <!-- Javascript -->
+    <script src = "index.js"></script>
+</body>
+
+<footer>
+    &#169; 2020 Andreas Anggara 
+</footer>
+
+</html>
